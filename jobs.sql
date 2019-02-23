@@ -109,10 +109,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `is_admin`, `name`, `email`, `password`) VALUES
-(1, 2, 'Steven Benjamin', 'stevebenjamin81@gmail.com', '202cb962ac59075b964b07152d234b70'),
-(2, 1, 'Admin', 'sbenjamin1@my.polk.edu', '21232f297a57a5a743894a0e4a801fc3'),
-(5, 0, 'John', 'fake@fake.com', '202cb962ac59075b964b07152d234b70'),
-(6, 0, 'Jane', 'jane@fake.com', '202cb962ac59075b964b07152d234b70');
+(1, 2, 'Steven Benjamin', '', ''),
+(2, 1, 'Admin', '', ''),
 
 --
 -- Indexes for dumped tables
