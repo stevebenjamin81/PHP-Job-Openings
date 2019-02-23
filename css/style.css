@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : Mar 28, 2018, 4:45:19 AM
+    Author     : sbenj
+*/
+
+body {
+	background: #fff;
+}
+h1 {
+	margin: 0px auto;
+	text-align: center;
+}
+h2 {
+	margin-left: 25px;
+}
+ul li {
+	padding: 5px;
+	margin-top: 4px;
+}
+ul li a {
+	display: block;
+	cursor: pointer;
+}
+#container {
+	margin: 0px auto;
+	width: 94%;
+	background: #34495E;
+}
+#leftpane ul, #rightpane ul {
+	list-style-type: none;
+	width: 85%;
+}
+#leftpane {
+	margin: 20px;
+	float: left;
+	width: 47%;
+	min-height: 400px;
+	background: #F7F9F9;
+}
+#rightpane {
+	margin: 20px;
+	margin-left: 0px;
+	float: left;
+	width: 47%;
+	min-height: 400px;
+	background: #F7F9F9;
+}
+#jobActions {
+	width: 90%;
+	margin: 20px;
+	text-align: center !important;
+}
+#tabContainer {
+	width: 400px;
+	margin: 0px auto;
+}
+#tabbox {
+	height: 40px
+}
+#panel {
+	background-color: #FFF;
+	height: 200px;
+	border-top: 1px solid #000;
+}
+.tab {
+	background: #f8f8f8;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 80px;
+	float: right;
+	font-weight: bold;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius: 4px 4px 0px 0px;
+}
+a {
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.signup {
+	margin-left: 8px;
+}
+.select {
+	background-color: #FFF;
+}
+#loginbox {
+	margin: 50px;
+	margin-top: 10px;
+	height: 300px;
+	padding: 10px;
+}
+#signupbox {
+	margin: 30px;
+	margin-top: 10px;
+	height: 300px;
+	padding: 10px;
+	display: none;
+}
+#errMSG {
+	width: 240px;
+	margin: 0px auto;
+	margin-top: 20px;
+	color: #ff0000;
+}
+#nav {
+	text-align: center;
+	width: 600px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+}
+#adminUL {
+	margin: 2px;
+	width: 320px;
+	font-family: Georgia, Times, serif;
+	font-size: 15px;
+}
+#adminUL div {
+	padding-left: 10px;
+	line-height: 30px;
+	background: #34495E;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+#adminCatUL li:hover, #adminJobUL li:hover, #adminUL li:hover, #catUL li:hover, #jobsUL li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+#adminUL ul li {
+	padding: 10px;
+	margin: 0px;
+}
+#adminUL ul {
+	margin: 0px;
+	padding: 10px;
+	list-style: none;
+}
+#adminUL ul li a {
+	display: block;
+	text-decoration: none;
+	line-height: 35px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+#adminUL ul li a strong {
+	margin-right: 10px;
+}
+#categories, #positions {
+	float: left;
+	width: 50%;
+}
